@@ -1,17 +1,19 @@
 .banner {
-  font-family: Helvetica, sans-serif;
-  font-size: 100px;
-  font-weight: bold;
-  color: khaki;
-  text-align: center;
-
+  height: 200px; 
+  width: 100%;
+  overflow: hidden; 
+  position: relative;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 
 .banner img {
+  height: 100%; 
   width: 100%;
-  height: auto;
   display: block;
+  object-fit: cover; 
+  
 
 }
 
@@ -19,6 +21,23 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  
+  transform: translate(-50%, -100%);
+  font-family: Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.hacksaw-brushes {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.hacksaw-brushes img {
+  width: 10%;
+  height: auto%;
+  display: block;
+  align-content: left;
 }
