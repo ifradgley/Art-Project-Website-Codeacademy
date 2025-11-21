@@ -71,6 +71,61 @@
 
 .hacksaw-brushes p {
   font-family: Helvetica;
+
+}
+
+.hacksaw-brushes .p-first {
+  font-weight: bold;
+  color: blue;
+  
+}
+
+
+.frames {
+  text-align: left;
+  margin-top: 20px;
+  background-color: lightcoral;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.frames h2 {
+  position: absolute;
+  transform: translate(10%, -50%);
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.image-frames{
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.image-frames img {
+  width: auto;
+  height: auto;
+  display: block;
+  align-content: left;
+
+}
+
+.art-frames h3 {
+  font-family: Helvetica;
+
+}
+
+.art-frames p {
+  font-family: Helvetica;
+
+}
+
+.art-frames .p-second {
   font-weight: bold;
   color: blue;
 
