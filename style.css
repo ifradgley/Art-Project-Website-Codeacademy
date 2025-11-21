@@ -13,7 +13,6 @@
   width: 100%;
   display: block;
   object-fit: cover; 
-  
 
 }
 
@@ -28,16 +27,51 @@
   color: khaki;
   text-align: center;
   white-space: nowrap;
+
 }
 
-.hacksaw-brushes {
+.brushes {
   text-align: left;
   margin-top: 20px;
+  background-color: mediumspringgreen;
+  height: 50px; 
+  width: 100%;
+  overflow: hidden; 
 }
 
-.hacksaw-brushes img {
-  width: 10%;
-  height: auto%;
+.brushes h2 {
+  position: absolute;
+  transform: translate(10%, -50%);
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.image-container {
+  height: 200px; 
+  width: 100%;
+  overflow: hidden; 
+  margin-top: 40px;
+}
+
+.image-container img {
+  width: auto;
+  height: auto;
   display: block;
   align-content: left;
+
+}
+
+.hacksaw-brushes h3 {
+  font-family: Helvetica;
+
+}
+
+.hacksaw-brushes p {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+
 }
