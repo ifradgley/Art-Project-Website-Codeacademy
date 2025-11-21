@@ -130,3 +130,53 @@
   color: blue;
 
 }
+
+.paint {
+  text-align: left;
+  margin-top: 20px;
+  background-color: skyblue;
+  height: 50px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.paint h2 {
+  position: absolute;
+  transform: translate(10%, -50%);
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+
+}
+
+.image-paint{
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.image-paint img {
+  width: auto;
+  height: auto;
+  display: block;
+  align-content: left;
+
+}
+
+.clean-finnish-paint h3 {
+  font-family: Helvetica;
+
+}
+
+.clean-finnish-paint p {
+  font-family: Helvetica;
+
+}
+
+.clean-finnish-paint .p-third {
+  font-weight: bold;
+  color: blue;
+
+}
